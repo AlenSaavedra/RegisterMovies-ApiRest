@@ -121,12 +121,4 @@ Si deseas contribuir al proyecto, siéntete libre de hacer un fork y enviar tus 
 ## Licencia
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para obtener más detalles.
-```
 
-### Pasos para agregar las imágenes:
-
-1. **Sube las imágenes a tu repositorio**: 
-   Coloca las imágenes (por ejemplo, `registro_pelicula.png` y `tabla_peliculas.png`) en la carpeta del proyecto, por ejemplo, en una carpeta `images` o directamente en la raíz del repositorio.
-
-2. **Actualiza las rutas de las imágenes**: 
-   En los apartados de las imágenes, cambia `ruta/a/tu/imagen/registro_pelicula.png` y `ruta/a/tu/imagen/tabla_peliculas.png` por las rutas reales donde hayas subido las imágenes en tu repositorio.
