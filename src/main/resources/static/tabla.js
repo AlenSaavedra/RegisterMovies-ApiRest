@@ -10,7 +10,7 @@ window.onload = function() {
 
 // LISTAR PELICULAS
 let listarPeliculas = async () => {
-    const peticion = await fetch("http://localhost:8080/api/peliculas", {
+    const peticion = await fetch("https://registermovies-apirest.onrender.com/api/peliculas", {
         method: 'GET',
         headers: {
             'Accept': 'application/json',
