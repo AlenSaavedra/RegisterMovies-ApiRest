@@ -46,7 +46,7 @@ let listarPeliculas = async () => {
 
 // BORRAR UNA PELICULA
 let borrarPelicula = async (id) => {
-    await fetch("http://localhost:8080/api/peliculas/" + id, {
+    await fetch("https://registermovies-apirest.onrender.com/api/peliculas/" + id, {
         method: 'DELETE',
         headers: {
             'Accept': 'application/json',
@@ -64,7 +64,7 @@ let editarPelicula = async (id) => {
     idEditar = id;
     mostrarModificar();
 
-    const peticion = await fetch("http://localhost:8080/api/peliculas/" + id, {
+    const peticion = await fetch("https://registermovies-apirest.onrender.com/api/peliculas/" + id, {
         method: 'GET',
         headers: {
             'Accept': 'application/json',
@@ -88,7 +88,7 @@ let aplicarActualizacion = async (id) => {
         genero: document.getElementById("genero").value
     };
 
-    await fetch("http://localhost:8080/api/peliculas/" + id, { // Agregado "/" antes de id
+    await fetch("https://registermovies-apirest.onrender.com/api/peliculas/" + id, { // Agregado "/" antes de id
         method: 'PUT',
         headers: {
             'Accept': 'application/json',
