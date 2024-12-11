@@ -14,7 +14,7 @@ let registrarPelicula = async () => {
 
     try {
         // Realizar la solicitud POST
-        const peticion = await fetch("http://localhost:8080/api/peliculas", {
+        const peticion = await fetch("https://registermovies-apirest.onrender.com/api/peliculas", {
             method: 'POST',
             headers: {
                 'Accept': 'application/json',
