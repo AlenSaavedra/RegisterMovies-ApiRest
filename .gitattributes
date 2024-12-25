@@ -1,4 +1,2 @@
 /mvnw text eol=lf
 *.cmd text eol=crlf
-* linguist-language=Java
-* linguist-language=JavaScript
